@@ -1,0 +1,25 @@
+package com.practice;
+
+import java.util.Scanner;
+
+public class primenumberseries {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int i,count,j;
+		for(i=1;i<=100;i++) {
+			count=0;
+			for(j=1;j<=i;j++) {
+				if(i%j==0) {
+					count++;
+				}
+				
+			}
+			if(count==2) {
+				System.out.println(i);
+		}
+	
+			
+		}
+	}
+
+}
